@@ -1,0 +1,38 @@
+/*Navigationsmenu*/
+ ul {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  display: block;
+  list-style: none;
+  background-color: #12D9F9; 
+}
+li {
+  background: #eee;
+  padding: 10px 15px;
+  margin-bottom: 2px;
+}
+ li a {
+  font-family: 'Helvetica';
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.active {
+	color: #F3060A;
+}
+
+@media screen and (min-width: 40em) {
+  .li {
+    display: inline;
+    background: none;
+  }
+  .li a:hover {
+    color: #9419DC;
+  }  
+}
+
+
+
